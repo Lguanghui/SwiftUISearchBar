@@ -45,7 +45,6 @@ struct SearchView: View {
     @State var searchText: Value = ""
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     @EnvironmentObject var dataSource: SearchDataSource
-
     var clickBlock: ((Value) -> Void)?
     
     static var size: GridItem.Size {
@@ -82,7 +81,7 @@ struct SearchView: View {
             }
             
             LazyVGrid(columns: columns, alignment: .center, spacing: 8) {
-                ForEach(searchText == "" ? dataSource.values : dataSource.values.filter({ $0.lowercased().contains(searchText.lowercased()) || $0.lowercased().contains(searchText.lowercased()) }), id: \.self) { val in
+                ForEach(searchText == "" ? dataSource.values : dataSource.values.filter({ $0.lowercased().contains(searchText.lowercased())}), id: \.self) { val in
                     Button(val) {
                         clickBlock?(val)
                     }
