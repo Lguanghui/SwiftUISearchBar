@@ -11,6 +11,8 @@
 		BE2B673C2BCA7F6F008638EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B673B2BCA7F6F008638EE /* ContentView.swift */; };
 		BE2B673E2BCA7F70008638EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2B673D2BCA7F70008638EE /* Assets.xcassets */; };
 		BE2B67412BCA7F70008638EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2B67402BCA7F70008638EE /* Preview Assets.xcassets */; };
+		BE2B67492BCA8008008638EE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B67482BCA8008008638EE /* SearchView.swift */; };
+		BE2B674B2BCA8065008638EE /* SearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B674A2BCA8065008638EE /* SearchDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BE2B673D2BCA7F70008638EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2B67402BCA7F70008638EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE2B67422BCA7F70008638EE /* SwiftUISearchBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUISearchBar.entitlements; sourceTree = "<group>"; };
+		BE2B67482BCA8008008638EE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BE2B674A2BCA8065008638EE /* SearchDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				BE2B67392BCA7F6F008638EE /* SwiftUISearchBarApp.swift */,
 				BE2B673B2BCA7F6F008638EE /* ContentView.swift */,
+				BE2B67482BCA8008008638EE /* SearchView.swift */,
+				BE2B674A2BCA8065008638EE /* SearchDataSource.swift */,
 				BE2B673D2BCA7F70008638EE /* Assets.xcassets */,
 				BE2B67422BCA7F70008638EE /* SwiftUISearchBar.entitlements */,
 				BE2B673F2BCA7F70008638EE /* Preview Content */,
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2B673C2BCA7F6F008638EE /* ContentView.swift in Sources */,
+				BE2B67492BCA8008008638EE /* SearchView.swift in Sources */,
+				BE2B674B2BCA8065008638EE /* SearchDataSource.swift in Sources */,
 				BE2B673A2BCA7F6F008638EE /* SwiftUISearchBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

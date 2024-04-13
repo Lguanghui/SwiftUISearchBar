@@ -2,7 +2,7 @@
 //  SwiftUISearchBarApp.swift
 //  SwiftUISearchBar
 //
-//  Created by 梁光辉 on 2024/4/13.
+//  Created by Guanghui Liang on 2024/4/13.
 //
 
 import SwiftUI
